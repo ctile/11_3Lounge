@@ -20,6 +20,7 @@ h2 {
 #guarantee {
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
+  /*using quotes for times new roman because there are spaces*/
   padding: 25px 0 0 105px;
   margin: 30px;
   border-style: dashed;
