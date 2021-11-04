@@ -21,11 +21,17 @@ h2 {
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
   /*using quotes for times new roman because there are spaces*/
-  padding: 25px 0 0 105px;
+  line-height: 1.9em;
+  padding: 25px;
   margin: 30px;
+  /*margin-right: 205px;this overules the previous as it comes later*/
   border-style: dashed;
   border-color: white;
   background-color: #007e7e;
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
+  /*padding-left: 80px; for background image*/
+}
+@media print {
+  body {
+    font-family: webdings, fantasy;
+  }
 }
